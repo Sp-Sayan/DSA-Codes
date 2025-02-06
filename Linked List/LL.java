@@ -3,45 +3,45 @@ package sayan_LL;
 import java.util.Scanner;
 
 public class LL {
-    static Node head;
+    static ListNode head;
 
-    class Node{
+    class ListNode{
         String data;
-        Node next;
+        ListNode next;
 
-        Node(String data){
+        ListNode(String data){
             this.data = data;
             this.next = null;
         }
     }
 
     public void addLast(String data){
-        Node newNode = new Node(data);
+        ListNode newListNode = new ListNode(data);
         if(head == null){
-            head = newNode;
+            head = newListNode;
             return;
         }
-        Node ptr = head;
+        ListNode ptr = head;
         while(ptr.next != null)
         {
             ptr = ptr.next;
         }
-        ptr.next = newNode;
+        ptr.next = newListNode;
 
     }
     //Recursive insertion
-    public void insertRec(Node ptr,String data, int index)
+    public void insertRec(ListNode ptr,String data, int index)
     {
         if(index == 0){
-            Node newNode = new Node(data);
-            newNode.next = head;
-            head = newNode;
+            ListNode newListNode = new ListNode(data);
+            newListNode.next = head;
+            head = newListNode;
         }
         else if(index == 1){
-            Node temp = ptr.next;
-            Node newNode = new Node(data);
-            ptr.next = newNode;
-            newNode.next = temp;
+            ListNode temp = ptr.next;
+            ListNode newListNode = new ListNode(data);
+            ptr.next = newListNode;
+            newListNode.next = temp;
         }
         else{
             insertRec(ptr.next,data,index-1);
@@ -55,7 +55,7 @@ public class LL {
              return;
          }
 
-         Node ptr = head;
+         ListNode ptr = head;
          while(ptr != null){
              System.out.println(ptr.data + " ");
              ptr = ptr.next;
@@ -69,7 +69,7 @@ public class LL {
              System.out.println("List is empty");
              return;
          }
-         Node ptr = head;
+         ListNode ptr = head;
          System.out.print("Enter position to delete: ");
          int pos = sc.nextInt(), count = 1;
          if(pos == 1){
@@ -85,7 +85,7 @@ public class LL {
             System.out.println("List is smaller");
             return;
         }
-        Node temp = ptr.next;
+        ListNode temp = ptr.next;
         ptr.next = temp.next;
         temp.next = null;
 
