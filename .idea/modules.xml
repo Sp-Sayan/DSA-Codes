@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA-Codes.iml" filepath="$PROJECT_DIR$/DSA-Codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array_string/array_string.iml" filepath="$PROJECT_DIR$/array_string/array_string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack_prog/stack_prog.iml" filepath="$PROJECT_DIR$/stack_prog/stack_prog.iml" />
     </modules>
   </component>
 </project>
