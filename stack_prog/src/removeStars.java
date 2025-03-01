@@ -1,6 +1,7 @@
 /*
 https://leetcode.com/problems/removing-stars-from-a-string
  */
+import java.util.*;
 
 public class removeStars {
     public String removeStars(String s) {
