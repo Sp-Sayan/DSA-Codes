@@ -3,15 +3,7 @@ import java.util.Scanner;
 public class LL {
     static ListNode head;
 
-    class ListNode{
-        String data;
-        ListNode next;
 
-        ListNode(String data){
-            this.data = data;
-            this.next = null;
-        }
-    }
 
     public void addLast(String data){
         ListNode newListNode = new ListNode(data);
