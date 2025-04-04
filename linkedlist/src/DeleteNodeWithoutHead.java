@@ -6,7 +6,7 @@ public class DeleteNodeWithoutHead {
         ListNode curr = node.next;
 
         while(curr != null){
-            prev.val = curr.val;
+            prev.data = curr.data;
             prev = (curr.next == null)?prev:curr;
             curr = curr.next;
         }

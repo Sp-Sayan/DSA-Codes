@@ -34,7 +34,7 @@ public class TwinSum {
         int max = Integer.MIN_VALUE;
         int sum = 0;
         while(head != null && prev != null){
-            sum = head.val + prev.val;
+            sum = Integer.parseInt(head.data + prev.data);
             if(sum >= max)
                 max = sum;
 
