@@ -8,9 +8,8 @@ public class MaxDiffAfterRemap {
         int min = 0;
         int max = 0;
         char remap = ' ';
-        Integer n1 = num;
 
-        String n2 = n1.toString();
+        String n2 = Integer.toString(num);
 
         // find first non-nine digit for max
         for (int i = 0; i < n2.length(); i++) {
