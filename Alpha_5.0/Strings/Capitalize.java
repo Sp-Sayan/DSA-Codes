@@ -1,7 +1,7 @@
 public class Capitalize {
 
     public static String toUpperCase(String str) {
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         Character ch = str.charAt(0);
         // first character
         sb.append(Character.toUpperCase(ch));
