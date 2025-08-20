@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alpha_5.0/Alpha_5.0.iml" filepath="$PROJECT_DIR$/Alpha_5.0/Alpha_5.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Codes.iml" filepath="$PROJECT_DIR$/.idea/DSA-Codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MISC_IMP/MISC_IMP.iml" filepath="$PROJECT_DIR$/MISC_IMP/MISC_IMP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Alpha_5.0/Stack/Stack.iml" filepath="$PROJECT_DIR$/Alpha_5.0/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/array_string/array_string.iml" filepath="$PROJECT_DIR$/array_string/array_string.iml" />
       <module fileurl="file://$PROJECT_DIR$/famousAlgo/famousAlgo.iml" filepath="$PROJECT_DIR$/famousAlgo/famousAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/stack_prog/stack_prog.iml" filepath="$PROJECT_DIR$/stack_prog/stack_prog.iml" />
     </modules>
