@@ -2,7 +2,7 @@ package special;
 
 public class NQueensPrintOneSoln {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 8;
         char[][] chessBoard = new char[n][n];
 
         for (int i = 0; i < chessBoard.length; i++) {
