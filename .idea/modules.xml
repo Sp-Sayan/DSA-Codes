@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/MISC_IMP/MISC_IMP.iml" filepath="$PROJECT_DIR$/MISC_IMP/MISC_IMP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Alpha_5.0/Queue/Queue.iml" filepath="$PROJECT_DIR$/Alpha_5.0/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alpha_5.0/Sliding Window/Sliding Window.iml" filepath="$PROJECT_DIR$/Alpha_5.0/Sliding Window/Sliding Window.iml" />
       <module fileurl="file://$PROJECT_DIR$/Alpha_5.0/Stack/Stack.iml" filepath="$PROJECT_DIR$/Alpha_5.0/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/array_string/array_string.iml" filepath="$PROJECT_DIR$/array_string/array_string.iml" />
       <module fileurl="file://$PROJECT_DIR$/famousAlgo/famousAlgo.iml" filepath="$PROJECT_DIR$/famousAlgo/famousAlgo.iml" />
